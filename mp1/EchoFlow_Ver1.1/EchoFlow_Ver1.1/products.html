@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <script src="js/includehtml.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/products.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div w3-include-html="nav.html"></div>
+    </div>
+  </header>
+  <script src="js/nav.js"></script>
+
+  <section id="products-content" class="products-content">
+    <div class="container">
+      <div class="searchfilter">
+        <form action="">
+          <div class="search-bar">
+            <input type="text" placeholder="Search a product" name="search">
+            <button type="submit" class="btn-normal"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+          <div class="filter">
+            <div>
+              <label for="brands">Brands:</label>
+              <select name="brands" id="brands">
+                <option value="all">all</option>
+                <option value="aux">aux</option>
+                <option value="carrier">carrier</option>
+                <option value="daikin">daikin</option>
+                <option value="gree">gree</option>
+                <option value="kolin">kolin</option>
+                <option value="koppel">koppel</option>
+                <option value="lg">lg</option>
+                <option value="midea">midea</option>
+                <option value="mitsubishi">mitsubishi</option>
+                <option value="ox">ox</option>
+                <option value="panasonic">panasonic</option>
+                <option value="samsung">samsung</option>
+                <option value="tcl">tcl</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="kind">Kind:</label>
+              <select name="kind" id="kind">
+                <option value="all">all</option>
+                <option value="floor standing">floor standing</option>
+                <option value="split type">split type</option>
+                <option value="wall mounted">wall mounted</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="type">Type:</label>
+              <select name="type" id="type">
+                <option value="all">all</option>
+                <option value="inverter">inverter</option>
+                <option value="non-inverter">non-inverter</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="hp">HP:</label>
+              <select name="hp" id="hp">
+                <option value="all">all</option>
+                <option value="0.5">0.5</option>
+                <option value="0.75">0.75</option>
+                <option value="1.0">1.0</option>
+                <option value="1.5">1.5</option>
+                <option value="2.0">2.0</option>
+                <option value="2.5">2.5</option>
+                <option value="3.0">3.0</option>
+                <option value="3.5">3.5</option>
+              </select>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="products-wrapper">
+        <div class="product-cards">
+          <div class="product-item">
+            <div class="prdct-img">
+              <img src="img/aircons/midea-ac-01.png" alt="">
+            </div>
+            <div class="prdct-logo">
+              <img src="img/brands/midea.png" alt="">
+            </div>
+            <div class="prdct-info">
+              <div class="prdct-info-filter">
+                <h6>Inverter</h6>
+                <h6>Split Type</h6><br>
+                <ul>
+                  <li><h6>1hp</h6></li>
+                  <li><h6>1.5hp</h6></li>
+                  <li><h6>2hp</h6></li>
+                  <li><h6>2.5hp</h6></li>
+                </ul>
+              </div>
+              <p><b>Aurora White New Model  FP-53A STKEIV-W6</b>
+              </p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="prdct-img">
+              <img src="img/aircons/mitsubishi-ac-01.png" alt="">
+            </div>
+            <div class="prdct-logo">
+              <img src="img/brands/mitsubishi.png" alt="">
+            </div>
+            <div class="prdct-info">
+              <div class="prdct-info-filter">
+                <h6>Inverter</h6>
+                <h6>Split Type</h6><br>
+                <ul>
+                  <li><h6>1hp</h6></li>
+                  <li><h6>1.5hp</h6></li>
+                  <li><h6>2hp</h6></li>
+                </ul>
+              </div>
+              <p><b>ECO SMART DELUXE</b></p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="prdct-img">
+              <img src="img/aircons/daikin-ac-01.png" alt="">
+            </div>
+            <div class="prdct-logo">
+              <img src="img/brands/daikin.png" alt="">
+            </div>
+            <div class="prdct-info">
+              <div class="prdct-info-filter">
+                <h6>Inverter</h6>
+                <h6>Split Type</h6><br>
+                <ul>
+                  <li><h6>1hp</h6></li>
+                  <li><h6>1.5hp</h6></li>
+                  <li><h6>2hp</h6></li>
+                  <li><h6>2.5hp</h6></li>
+                  <li><h6>3hp</h6></li>
+                </ul>
+              </div>
+              <p><b>2022 D Smart Queen</b></p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="prdct-img">
+              <img src="img/aircons/gree-ac-01.png" alt="">
+            </div>
+            <div class="prdct-logo">
+              <img src="img/brands/gree.png" alt="">
+            </div>
+            <div class="prdct-info">
+              <div class="prdct-info-filter">
+                <h6>non-Inverter</h6>
+                <h6>Split Type</h6><br>
+                <ul>
+                  <li><h6>1hp</h6></li>
+                  <li><h6>1.5hp</h6></li>
+                  <li><h6>2hp</h6></li>
+                  <li><h6>2.5hp</h6></li>
+                  <li><h6>3hp</h6></li>
+                </ul>
+              </div>
+              <p><b>AIRCON U W18  3NR</b></p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="prdct-img">
+              <img src="img/aircons/aux-ac-01.png" alt="">
+            </div>
+            <div class="prdct-logo">
+              <img src="img/brands/aux.png" alt="">
+            </div>
+            <div class="prdct-info">
+              <div class="prdct-info-filter">
+                <h6>Inverter</h6>
+                <h6>Split Type</h6><br>
+                <ul>
+                  <li><h6>1hp</h6></li>
+                  <li><h6>1.5hp</h6></li>
+                </ul>
+              </div>
+              <p><b>J Series J45 Model</b></p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="prdct-img">
+              <img src="img/aircons/lg-ac-01.png" alt="">
+            </div>
+            <div class="prdct-logo">
+              <img src="img/brands/lg.png" alt="">
+            </div>
+            <div class="prdct-info">
+              <div class="prdct-info-filter">
+                <h6>Inverter</h6>
+                <h6>Split Type</h6><br>
+                <ul>
+                  <li><h6>1hp</h6></li>
+                  <li><h6>1.5hp</h6></li>
+                  <li><h6>2hp</h6></li>
+                </ul>
+              </div>
+              <p><b>LG AC MODEL HS09ISU</b></p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="prdct-img">
+              <img src="img/aircons/samsung-ac-01.png" alt="">
+            </div>
+            <div class="prdct-logo">
+              <img src="img/brands/samsung.png" alt="">
+            </div>
+            <div class="prdct-info">
+              <div class="prdct-info-filter">
+                <h6>Inverter</h6>
+                <h6>Split Type</h6><br>
+                <ul>
+                  <li><h6>1hp</h6></li>
+                  <li><h6>1.5hp</h6></li>
+                  <li><h6>2.5hp</h6></li>
+                  <li><h6>3hp</h6></li>
+                </ul>
+              </div>
+              <p><b>2021 Samsung Basic</b></p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="prdct-img">
+              <img src="img/aircons/panasonic-ac-01.png" alt="">
+            </div>
+            <div class="prdct-logo">
+              <img src="img/brands/panasonic.png" alt="">
+            </div>
+            <div class="prdct-info">
+              <div class="prdct-info-filter">
+                <h6>Inverter</h6>
+                <h6>Split Type</h6><br>
+                <ul>
+                  <li><h6>1hp</h6></li>
+                  <li><h6>1.5hp</h6></li>
+                  <li><h6>2hp</h6></li>
+                  <li><h6>2.5hp</h6></li>
+                  <li><h6>3hp</h6></li>
+                </ul>
+              </div>
+              <p><b>deluxe inverter with NANO-E</b></p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="prdct-img">
+              <img src="img/aircons/kolin-ac-01.png" alt="">
+            </div>
+            <div class="prdct-logo">
+              <img src="img/brands/kolin.png" alt="">
+            </div>
+            <div class="prdct-info">
+              <div class="prdct-info-filter">
+                <h6>Inverter</h6>
+                <h6>Split Type</h6><br>
+                <ul>
+                  <li><h6>1hp</h6></li>
+                  <li><h6>1.5hp</h6></li>
+                  <li><h6>2hp</h6></li>
+                  <li><h6>2.5hp</h6></li>
+                  <li><h6>3hp</h6></li>
+                </ul>
+              </div>
+              <p><b>Primus SERIES Model P671-09</b></p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="prdct-img">
+              <img src="img/aircons/carrier-ac-01.png" alt="">
+            </div>
+            <div class="prdct-logo">
+              <img src="img/brands/carrier.png" alt="">
+            </div>
+            <div class="prdct-info">
+              <div class="prdct-info-filter">
+                <h6>Inverter</h6>
+                <h6>Split Type</h6><br>
+                <ul>
+                  <li><h6>1hp</h6></li>
+                  <li><h6>1.5hp</h6></li>
+                  <li><h6>2hp</h6></li>
+                </ul>
+              </div>
+              <p><b>XPower Gold 3 Inverter</b></p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="prdct-img">
+              <img src="img/aircons/tcl-ac-01.png" alt="">
+            </div>
+            <div class="prdct-logo">
+              <img src="img/brands/tcl.png" alt="">
+            </div>
+            <div class="prdct-info">
+              <div class="prdct-info-filter">
+                <h6>Inverter</h6>
+                <h6>Split Type</h6><br>
+                <ul>
+                  <li><h6>1hp</h6></li>
+                  <li><h6>1.5hp</h6></li>
+                  <li><h6>2hp</h6></li>
+                </ul>
+              </div>
+              <p><b>KE Series Inverter Model KE1920</b></p>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="prdct-img">
+              <img src="img/aircons/koppel-ac-01.png" alt="">
+            </div>
+            <div class="prdct-logo">
+              <img src="img/brands/koppel.png" alt="">
+            </div>
+            <div class="prdct-info">
+              <div class="prdct-info-filter">
+                <h6>Inverter</h6>
+                <h6>Split Type</h6><br>
+                <ul>
+                  <li><h6>1hp</h6></li>
+                  <li><h6>1.5hp</h6></li>
+                  <li><h6>2hp</h6></li>
+                  <li><h6>2.5hp</h6></li>
+                </ul>
+              </div>
+              <p><b>Super Inverter III </b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <footer>
+    <div class="container">
+      <div w3-include-html="footer.html"></div>
+    </div>
+  </footer>
+  
+  <script>
+    includeHTML();
+  </script>
+</body>
+</html>

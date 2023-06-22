@@ -1,0 +1,54 @@
+/* --- OUR BRANDS SECTION */
+.slider-track {
+  margin: 0 auto;
+  max-width: auto;
+  height: 100px;
+  overflow-x: hidden;
+
+}
+.brand-wrapper {
+  display: flex;
+  animation: marquee 15s linear infinite
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-700%);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .brand-wrapper {
+    animation: marquee 20s linear infinite;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+  
+    100% {
+      transform: translateX(-260%);
+    }
+  }
+}
+
+
+
+.slider {
+  display: flex;
+  gap: 3rem;
+  scroll-behavior: smooth;
+}
+
+.brand-item {
+  width: 150px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

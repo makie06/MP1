@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact us</title>
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <script src="js/includehtml.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/contact-us.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div w3-include-html="nav.html"></div>
+    </div>
+  </header>
+  <script src="js/nav.js"></script>
+
+  <section class="contact-heading flex center-x">
+    <div class="contact-header">
+      <h1>Get in touch with us</h1>
+    </div>
+  </section>
+
+  <section class="contact-us-wrapper">
+    <div class="social-details">
+      <div class="social">
+        <i class="fa-brands fa-facebook fa-2x"></i>
+        <a href="https://www.facebook.com/profile.php?id=100063692967153" target="_blank"><p>Echoflow Facebook Page</p></a>
+      </div>
+
+      <div class="social">
+        <i class="fa-solid fa-phone fa-2x"></i>
+        <p>+(63) 961 619 8433</p>
+      </div>
+
+      <div class="social email">
+        <i class="fa-solid fa-envelope fa-2x"></i>
+        <a href="mailto:jvnavarrohvacservices@gmail.com" target="_blank"><p>jvnavarrohvacservices@gmail.com</p></a>
+      </div>
+
+      <div class="social">
+        <i class="fa-solid fa-location-dot fa-2x"></i>
+        <p>Teresa · Rizal , Philippines</p>
+      </div>
+
+    </div>
+    <div class="message-us-form">
+      <h2>Send us a message</h2>
+      <form action="">
+        <div>
+          <label for="firstname">First name:</label><br>
+          <input type="text" id="firstname" name="first name" placeholder="Enter your first name" required>
+        </div>
+        
+        <div>
+          <label for="lastname">Last name:</label><br>
+          <input type="text" id="lastname" name="last name" placeholder="Enter your last name" required>
+        </div>
+
+        <div>
+          <label for="email">Email Address:</label><br>
+          <input type="email" id="email" name="email address" placeholder="Enter your email address" required>
+        </div>
+
+        <div>
+          <label for="message">Message:</label><br>
+          <textarea name="message" id="message" cols="20" rows="10" placeholder="Type here..." required></textarea>
+        </div>
+
+        <button class="btn-normal" type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+  
+
+  <footer>
+    <div class="container">
+      <div w3-include-html="footer.html"></div>
+    </div>
+  </footer>
+
+  <script>
+    includeHTML();
+  </script>
+</body>
+</html>

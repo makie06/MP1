@@ -1,0 +1,38 @@
+#services-repairs-menu {
+  background-color: #ddd;
+  color: black;
+}
+
+.customercare-head {
+  padding-top: 2rem;
+  font-size: clamp(.5rem, 2vw, 1rem);
+}
+
+.customercare-head h1 {
+  margin-top: 1rem;
+  color: var(--primary-color-400);
+  text-align: center;
+}
+
+.choose-between button {
+  width: 250px;
+}
+
+.choose-between i {
+  margin: 1rem;
+}
+
+.choose-between {
+  margin-block: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.servicerepair h4 {
+  text-align: center;
+  color: rgb(73, 73, 73);
+  margin-bottom: 2rem;
+}

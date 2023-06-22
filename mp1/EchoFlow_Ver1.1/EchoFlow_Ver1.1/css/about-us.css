@@ -1,0 +1,20 @@
+#about-us-menu {
+  background-color: #ddd;
+  color: black;
+}
+
+body {
+  background-color: var(--primary-color-400);
+}
+
+.about {
+  padding-top: 4rem;
+}
+
+.about-item {
+  max-width: 500px;
+  padding: 2rem;
+  margin: 5rem auto;
+  background-color: white;
+  border-radius: 40px;
+}

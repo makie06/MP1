@@ -1,0 +1,11 @@
+.status-information {
+  background-color: #ddd;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prompt h4 {
+  color: rgb(0, 0, 0, .7);
+}

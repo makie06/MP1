@@ -1,0 +1,256 @@
+/* --- HOME PAGE NAVIGATION STYLE --- */
+#home-menu {
+  background-color: #ddd;
+  color: black;
+}
+
+/* --- HERO SECTION --- */
+
+#hero {
+  padding-top: 2rem;
+  height: 100vh;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.hero-wrapper {
+  color: white;
+  font-size: clamp(.5rem, 2vw, 1rem);
+}
+
+.hero-wrapper p, .hero-btn {
+  padding-bottom: .6rem;
+  font-size: 1.6em;
+}
+
+.hero-wrapper .hero-btn {
+  margin-top: 1rem;
+}
+
+.hero-btn a:nth-child(1) {
+  margin-right: .6rem;
+}
+
+/* --- WE OFFER 3 AC SECTION --- */
+.ac-cards .ac-item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  max-width: 300px;
+  height: 400px ;
+  margin: 1rem auto;
+
+  background-image: url("../img/polkadot.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ac-cards .ac-item:hover {
+  outline: 4px solid var(--primary-color-400);
+}
+
+.ac-item img {
+  height: 200px;
+}
+
+.ac-item p {
+  margin: auto 0;
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+.floor-standing {
+  background-color: var(--accent-color-01);
+}
+
+.split-type {
+  background-color: var(--accent-color-02);
+}
+
+.wall-mounted {
+  background-color: var(--accent-color-03);
+}
+
+/* TRUST ECHOFLOW SECTION */
+.trust-item {
+  margin-block: 5rem;
+}
+
+.trust-item > * {
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.trust-item img {
+  max-width: 300px;
+  
+}
+
+.trust-item p {
+  max-width: 500px;
+}
+
+.trust-wrapper hr {
+  border: 2px solid #FFC74E;
+}
+
+.trust-wrapper .btn {
+  margin-bottom: 5rem;
+}
+
+
+/* --- BENEFITS SECTIONS --- */
+.benefit-item {
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 50px;
+  background: #204F95;
+  box-shadow:  20px 20px 60px #1b437f,
+             -20px -20px 60px #255bab;
+  max-width: 300px;
+  height: 300px;
+  text-align: center;
+}
+.benefit-item img{
+  margin: 0 auto;
+  height: 60px;
+}
+
+.benefit-item img, h3 {
+  margin-bottom: 1rem;
+}
+
+.benefits-wrapper { 
+  display: grid;
+  gap: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .benefits-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .benefits-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* --- FREQUENTLY ASKED QUESTIONS SECTION --- */
+.faqs-wrapper .faq-item {
+  height: 500px;
+  margin: 1rem auto;
+}
+
+.faq-accordion {
+  padding: 1rem;
+  max-width: 700px;
+}
+
+.faq-content {
+  cursor: pointer;
+  border-bottom: 2px solid;
+  padding: 1rem;
+}
+
+.faq-content h4 {
+  color: var(--primary-color-400);
+}
+
+.faq-content p {
+  margin-top: 1rem;
+}
+
+
+.faq-dropdown-content{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-in-out;
+}
+
+.faq-content:hover .faq-dropdown-content {
+  max-height: 300px;
+}
+
+/* --- REVIEWS SECTION --- */
+.review-cards .review-item {
+  max-width: 400px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+.review-cards .review-item:not(:last-child) {
+  border-bottom: 3px solid #FFC74E;
+
+}
+
+.customer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.customer img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+#reviews .btn {
+  margin-bottom: 5rem;
+}
+
+
+
+
+@media only screen and (min-width: 860px) {
+  .ac-cards, 
+  .review-cards, 
+  .faqs-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .trust-item {
+    margin-inline: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .trust-item:nth-child(3) img {
+    order: 2;
+  }
+
+  .ac-item, 
+  .review-item, 
+  .faq-item {
+    flex: 1;
+  }
+
+  .ac-cards .ac-item,
+  .review-cards .review-item {
+    margin: 1rem;
+  }
+
+  .review-cards .review-item:not(:last-child) {
+    border-bottom: none;
+    border-right: 3px solid #FFC74E;
+  }
+
+  
+}
+

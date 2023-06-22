@@ -1,0 +1,83 @@
+/* NAVIGATION BAR STYLING */
+
+.topnav {
+  overflow: hidden;
+  position: relative;
+}
+
+.topnav #nav-menu {
+  display: none;
+  text-align: center;
+  padding: 0;
+}
+
+.topnav .brandname p {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color-400);
+}
+
+.topnav .brandname p span {
+  color: var(--primary-color-900);
+}
+
+.topnav .nav-link  {
+  color: var(--primary-color-400);
+  padding-block: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+  display: block;
+}
+
+.topnav .icon {
+  /* background: black; */
+  display: block;
+  position: absolute;
+  right: 1rem;
+  top: .7rem;
+}
+
+.topnav .nav-link:hover {
+  background-color: #ddd;
+  color: var(--primary-color-900);
+}
+
+.brandname {
+  width: fit-content;
+  color: white;
+  gap: .5rem;
+  align-items: center;
+}
+
+.topnav #nav-menu button {
+  margin-top: 1rem;
+}
+
+
+@media only screen and (min-width: 1010px) {
+  .topnav .icon {
+    display: none;
+  }
+
+  .topnav #nav-menu {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+
+  .topnav #nav-menu button {
+    margin-left: 2rem;
+    margin-top: 0;
+  }
+
+  .topnav .nav-link {
+    padding-inline: 1rem;
+  }
+
+  .topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

@@ -1,0 +1,55 @@
+body {
+  background-image: linear-gradient(to right top, #73b9f8, #81bbf6, #8ebdf4, #99c0f1, #a3c2ef, #a5c8f1, #a8cdf3, #acd3f5, #acddfa, #aee7fc, #b3f0fe, #bbf9ff);
+  
+}
+
+form h4 {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+form a {
+  color: var(--primary-color-400);
+}
+
+form a:hover {
+  text-decoration: underline;
+}
+
+.log-in-form {
+  position: relative;
+  border-radius: 20px;
+  backdrop-filter: blur(1rem) saturate(180%);
+  -webkit-backdrop-filter: blur(8px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.8);
+  max-width: 500px;
+  margin: 5rem auto;
+  padding: 1rem;
+}
+
+.go-back-btn {
+  position: absolute;
+  top: -2.7rem;
+  left: 1rem;
+}
+
+.go-back-btn a {
+  color: white;
+}
+
+.go-back-btn a:hover {
+  color: #ddd;
+}
+
+.forgot-password {
+  padding-top: 0;
+}
+
+.forgot-password h6 {
+  margin-top: 0;
+}
+
+.sign-up {
+  margin-top: 2rem;
+}
+

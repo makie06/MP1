@@ -1,0 +1,137 @@
+/* PRODUCT PAGE STYLING */
+#products-menu {
+  background-color: #ddd;
+  color: black;
+}
+
+/* body {
+  background-color: var(--primary-color-400);
+} */
+
+form {
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+form div {
+  padding: 0;
+}
+
+/* --- Search Bar --- */
+.products-content {
+  padding-top: 5rem;
+}
+
+.searchfilter {
+  /* position: fixed;
+  width: 100%; */
+  /* background-color: white; */
+}
+
+.searchfilter form div {
+  display: flex;
+}
+
+.searchfilter form button {
+  width: fit-content;
+}
+
+/* .search-bar input {
+  color: white;
+  border-bottom: 3px solid white;
+} */
+
+.search-bar {
+  gap: .5rem;
+  /* max-width: 700px; */
+}
+
+/* --- Search Filter --- */
+.filter {
+  overflow-x: auto;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.filter div:first-of-type {
+  margin-left: 0;
+}
+
+.filter div {
+  margin-block: .5rem;
+  margin-inline: .5rem;
+}
+
+.filter select {
+  padding-right: .5rem;
+  text-transform: inherit;
+  margin-inline: .5rem;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid var(--primary-color-400);
+  text-align: center;
+}
+
+/* --- Product wrapper --- */
+.product-cards {
+  margin-block: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.product-item {
+  background-color: white;
+  width: 250px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.25);
+}
+
+.prdct-img{
+  /* width: 250px; */
+  height: 150px;
+}
+
+.prdct-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: .5rem;
+  margin-top: 1rem;
+  width: 70px;
+  height: 30px;
+}
+
+.prdct-info {
+  margin: .5rem;
+}
+
+.prdct-info h6 {
+  color: var(--primary-color-400);
+  margin: 0;
+}
+
+.prdct-info p {
+  margin-top: .3rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.prdct-info-filter ul {
+  margin: 0;
+  padding: 0;
+}
+
+.prdct-info-filter > *:not(ul) {
+  color: white;
+  background-color: var(--primary-color-400);
+}
+
+.prdct-info-filter > *:not(ul), .prdct-info-filter li {
+  display: inline-block;
+  border: 1px solid var(--primary-color-400);
+  border-radius: 50px;
+  padding-inline: .3rem;
+}
